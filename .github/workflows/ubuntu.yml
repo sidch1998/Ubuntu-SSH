@@ -8,7 +8,7 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-20.04
-    container: zshusers/zsh:master
+    # container: zshusers/zsh:master
     steps:
     - uses: fastai/workflows/ssh@master
       with:
